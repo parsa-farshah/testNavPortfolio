@@ -1,8 +1,15 @@
 @import "tailwindcss";
 
+body {
+  font-family: sora;
+}
+
 @layer utilities {
   .colorOne {
     @apply text-[#A1C568];
+  }
+  .bgOne {
+    @apply bg-[#a1c568];
   }
   .bgWhite {
     background-image: url(../public/images/bg-white.svg);
@@ -12,4 +19,9 @@
     background-image: url(../public/images/profile2.jpg);
     background-size: cover;
   }
+}
+
+@font-face {
+  font-family: sora;
+  src: url(../public/fonts/Sora-Regular.ttf);
 }
