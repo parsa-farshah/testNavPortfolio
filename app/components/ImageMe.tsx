@@ -1,6 +1,6 @@
-"use client";
+
 import Image from "next/image";
-import React, { useState } from "react";
+import React from "react";
 import topImg from "../../public/images/top paper.svg";
 import bottomImg from "../../public/images/bottom paper white.svg";
 import {
