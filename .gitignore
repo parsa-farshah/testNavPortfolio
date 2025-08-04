@@ -1,9 +1,13 @@
 *
 
-
+# Allow exceptions
 !.gitignore
 !out/
 !out/**/*
 !package.json
 !next.config.*
 !tsconfig.json
+
+# 👇 اینا رو اضافه کن تا app و زیرشاخه‌هاش نادیده گرفته نشن
+!app/
+!app/**/*
