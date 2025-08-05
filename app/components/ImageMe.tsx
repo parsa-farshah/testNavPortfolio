@@ -14,7 +14,7 @@ import { PiTelegramLogo } from "react-icons/pi";
 
 function ImageMe() {
   return (
-    <section className="w-full h-[500px] sm:w-full px-5 mt-3 mx-auto sm:px-3 sm:mt-6 sm:h-[600px]  lg:w-[700px] lg:h-[720px] xl:pt-0 lg:m-0 lg:-translate-x-11 before:content-[] before:w-[110%] before:h-[110%] before:bg-[#dae8c4] before:absolute before:left-[-35px] before:top-[-36px] before:hidden lg:before:flex">
+    <section className="w-full h-[500px] sm:w-full px-5 mt-3 mx-auto sm:px-3 sm:mt-6 sm:h-[600px]  lg:w-[500px] lg:h-[100vh] xl:pt-0 lg:m-0 lg:-translate-x-11 before:content-[] before:w-[110%] before:h-[110%] before:bg-[#dae8c4] before:absolute before:left-[-35px] before:top-[-36px] before:hidden lg:before:flex">
       <div className="bgMe w-full h-full object-cover object-center relative overflow-hidden">
         {/* top image */}
         <div className="w-[200%] h-[200px] sm:-translate-y-9 md:-translate-y-18 object-cover absolute top-0 left-[-50%] ">
@@ -82,7 +82,7 @@ function ImageMe() {
         <div className="w-full absolute bottom-0 left-0 flex justify-between boeder-t ">
           {/* left */}
           <div className="flex items-center w-1/2 h-16 bg-[#ffffff] justify-center gap-4 group cursor-pointer">
-            <a className="text-lg md:text-2xl uppercase " href="">
+            <a className="text-sm md:text-xl uppercase " href="">
               Download Cv
             </a>
             <div className="group-hover:text-[#a1c568] group-hover:-translate-y-2 duration-500">
@@ -91,7 +91,7 @@ function ImageMe() {
           </div>
           {/* right */}
           <div className="flex items-center w-1/2 h-16 bg-[#ffffff] justify-center gap-4 group cursor-pointer">
-            <a className="text-lg md:text-2xl uppercase " href="">
+            <a className="text-sm md:text-xl uppercase " href="">
               contact me
             </a>
             <div className="group-hover:text-[#a1c568] group-hover:-translate-y-2 duration-500">

@@ -8,7 +8,7 @@ import { GiChessQueen } from "react-icons/gi";
 
 function AboutUs() {
   return (
-    <div className="sm:pl-28 md:pl-40 mt-5">
+    <div className="sm:pl-28 md:pl-40 lg:pl-0 mt-5">
       {/*----------------------------------- About ME ----------------------------*/}
       <div className="w-[90%]  px-8 mx-auto pb-8">
         <h1 className="text-[#323232] font-extrabold text-xl">
