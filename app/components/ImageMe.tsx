@@ -85,7 +85,10 @@ function ImageMe() {
         <div className="w-full absolute bottom-0 left-0 flex justify-between boeder-t ">
           {/* left */}
           <div className="flex items-center w-1/2 h-16 bg-[#ffffff] justify-center gap-4 group cursor-pointer">
-            <a className="text-sm md:text-xl uppercase " href="">
+            <a
+              className="text-sm md:text-xl uppercase "
+              href="https://linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250"
+            >
               Download Cv
             </a>
             <div className="group-hover:text-[#a1c568] group-hover:-translate-y-2 duration-500">
@@ -94,7 +97,10 @@ function ImageMe() {
           </div>
           {/* right */}
           <div className="flex items-center w-1/2 h-16 bg-[#ffffff] justify-center gap-4 group cursor-pointer">
-            <a className="text-sm md:text-xl uppercase " href="">
+            <a
+              className="text-sm md:text-xl uppercase "
+              href="https://github.com/parsa-farshah"
+            >
               contact me
             </a>
             <div className="group-hover:text-[#a1c568] group-hover:-translate-y-2 duration-500">
