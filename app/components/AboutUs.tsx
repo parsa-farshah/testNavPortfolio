@@ -2,10 +2,11 @@ import Image from "next/image";
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { CiMobile3 } from "react-icons/ci";
-import { FaBrain, FaRegLightbulb } from "react-icons/fa";
+import { FaArrowRight, FaBrain, FaRegLightbulb } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
 import iconTenP from "../../public/images/icon-10%.png";
 import { IoDiamond } from "react-icons/io5";
+import { GiChessQueen } from "react-icons/gi";
 
 function AboutUs() {
   return (
@@ -140,7 +141,7 @@ function AboutUs() {
           </h1>
           <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
           {/* design */}
-          <div className="w-[90%]  h-7 mt-7 mx-auto">
+          <div className="w-[90%]   mt-7 mx-auto">
             <div className="w-full flex items-center gap-4 text-[17px] font-extrabold text-[#323232]">
               <div className="colorOne">
                 <FaBrain size={30} />
@@ -150,49 +151,129 @@ function AboutUs() {
             {/* border */}
             <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
             {/*------------------- percentAge -------------------*/}
-            <div className="w-full flex gap-y-9 flex-wrap mt-4">
+            <div className="w-full flex justify-between gap-y-9 flex-wrap mt-4">
               {/* logo design */}
-              <div className="w-1/2 flex flex-col items-center">
-                <figure className="w-1/2  flex">
+              <div className="w-[45%] flex flex-col items-center">
+                {/* <figure className="w-1/2  flex">
                   <img
                     className="w-[90px] h-[90px]"
                     src="/images/iconthirtyP.png"
                     alt=""
                   />
-                </figure>
+                </figure> */}
+                <div className="w-24 h-24 bg-white rounded-full border-4 border-gray-300 relative before:content-['50%'] before:text-[#323232] before:text-[17px] before:font-medium before:absolute before:top-1/2 before:left1/2 before:translate-x-[60%] before:translate-y-[-40%]">
+                  <svg
+                    height="100"
+                    width="100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute -top-1.5 left-[-4px]"
+                  >
+                    <circle
+                      r="45"
+                      cx="50"
+                      cy="50"
+                      fill="none"
+                      strokeWidth="3"
+                      stroke="#a1c568"
+                      strokeDasharray={`${Math.PI * 45} ${Math.PI * 45}`}
+                      strokeDashoffset={`${Math.PI * 45}`}
+                      transform="rotate(90 50 50)"
+                    />
+                  </svg>
+                </div>
                 <h5 className="font-normal text-[#646464]">Logo Design</h5>
               </div>
               {/* web design */}
-              <div className="w-1/2 flex flex-col items-center">
-                <figure className="w-1/2  flex">
+              <div className="w-[45%] flex flex-col items-center">
+                {/* <figure className="w-1/2  flex">
                   <img
                     className="w-[90px] h-[90px]"
                     src="/images/iconfiftyP.png"
                     alt=""
                   />
-                </figure>
+                </figure> */}
+                <div className="w-24 h-24 bg-white rounded-full border-4 border-gray-300 relative before:content-['50%'] before:text-[#323232] before:text-[17px] before:font-medium before:absolute before:top-1/2 before:left1/2 before:translate-x-[60%] before:translate-y-[-40%]">
+                  <svg
+                    height="100"
+                    width="100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute -top-1.5 left-[-4px]"
+                  >
+                    <circle
+                      r="45"
+                      cx="50"
+                      cy="50"
+                      fill="none"
+                      strokeWidth="3"
+                      stroke="#a1c568"
+                      strokeDasharray={`${Math.PI * 45} ${Math.PI * 45}`}
+                      strokeDashoffset={`${Math.PI * 45}`}
+                      transform="rotate(90 50 50)"
+                    />
+                  </svg>
+                </div>
                 <h5 className="font-normal text-[#646464]">Web Design</h5>
               </div>
               {/* html */}
-              <div className="w-1/2 flex flex-col items-center">
-                <figure className="w-1/2  flex">
+              <div className="w-[45%] flex flex-col items-center">
+                {/* <figure className="w-1/2  flex">
                   <img
                     className="w-[90px] h-[90px]"
                     src="/images/iconTenPercent.png"
                     alt=""
                   />
-                </figure>
+                </figure> */}
+                <div className="w-24 h-24 bg-white rounded-full border-4 border-gray-300 relative before:content-['50%'] before:text-[#323232] before:text-[17px] before:font-medium before:absolute before:top-1/2 before:left1/2 before:translate-x-[60%] before:translate-y-[-40%]">
+                  <svg
+                    height="100"
+                    width="100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute -top-1.5 left-[-4px]"
+                  >
+                    <circle
+                      r="45"
+                      cx="50"
+                      cy="50"
+                      fill="none"
+                      strokeWidth="3"
+                      stroke="#a1c568"
+                      strokeDasharray={`${Math.PI * 45} ${Math.PI * 45}`}
+                      strokeDashoffset={`${Math.PI * 45}`}
+                      transform="rotate(90 50 50)"
+                    />
+                  </svg>
+                </div>
                 <h5 className="font-normal text-[#646464]">Html</h5>
               </div>
               {/* css */}
-              <div className="w-1/2 flex flex-col items-center">
-                <figure className="w-1/2  flex">
+              <div className="w-[45%] flex flex-col items-center">
+                {/* <figure className="w-1/2  flex">
                   <img
                     className="w-[90px] h-[90px]"
                     src="/images/iconEighti.png"
                     alt=""
                   />
-                </figure>
+                </figure> */}
+                <div className="w-24 h-24 bg-white rounded-full border-4 border-gray-300 relative before:content-['50%'] before:text-[#323232] before:text-[17px] before:font-medium before:absolute before:top-1/2 before:left1/2 before:translate-x-[60%] before:translate-y-[-40%]">
+                  <svg
+                    height="100"
+                    width="100"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="absolute -top-1.5 left-[-4px]"
+                  >
+                    <circle
+                      r="45"
+                      cx="50"
+                      cy="50"
+                      fill="none"
+                      strokeWidth="3"
+                      stroke="#a1c568"
+                      strokeDasharray={`${Math.PI * 45} ${Math.PI * 45}`}
+                      strokeDashoffset={`${Math.PI * 45}`}
+                      transform="rotate(90 50 50)"
+                    />
+                  </svg>
+                </div>
                 <h5 className="font-normal text-[#646464]">Css</h5>
               </div>
             </div>
@@ -209,13 +290,122 @@ function AboutUs() {
             <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
             {/*---------------------------- percent line ------------------------*/}
             <div className="w-full py-5">
+              {/* sketch */}
               <div>
                 <span>Sketch</span>
                 <div
-                  className="w-full h-1 relative bg-amber-400 after:content-[] after:w-[20%]
-                after:h-full after:bg-blue-500 after:absolute after:top-0 after:left-0
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
+              </div>
+              {/* sketch */}
+              <div className="mt-8">
+                <span>Sketch</span>
+                <div
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
+                "
+                ></div>
+              </div>{" "}
+              {/* sketch */}
+              <div className="mt-8">
+                <span>Sketch</span>
+                <div
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
+                "
+                ></div>
+              </div>{" "}
+              {/* sketch */}
+              <div className="mt-8">
+                <span>Sketch</span>
+                <div
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
+                "
+                ></div>
+              </div>
+              {/* sketch */}
+              <div className="mt-8">
+                <span>Sketch</span>
+                <div
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
+                "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/*----------------------------------- price --------------------------------*/}
+      <div className="w-full px-8 mt-10">
+        {/* my service txt */}
+        <div className="w-full px-0 mx-auto mb-8">
+          <h1 className="text-[#323232] font-extrabold text-xl">
+            <span className="colorOne">P</span>ricing
+          </h1>
+          <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
+          {/* popular */}
+          <div className="w-full  flex flex-col items-center mt-10">
+            <div className="w-14 h-14 bg-gray-200 rounded-xl flex justify-center items-center">
+              <GiChessQueen size={50} color="#A1C568" />
+            </div>
+            <span className="txtBold mt-3">Popular</span>
+            <div className="flex items-center justify-center ml-8 mt-5">
+              <span className="mb-4">$</span>
+              <span className="txtBold text-[42px] mx-3">22</span>
+              <span className="mt-4 ">hour</span>
+            </div>
+            <ul className="*:text-[#646464] font-normal text-center *:my-2">
+              <li>Web Design</li>
+              <li>Mobile-First</li>
+              <li>Graphic Design</li>
+              <li className="line-through">Logo Design</li>
+              <li className="line-through">Photography</li>
+            </ul>
+            <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
+            <div className="w-full flex items-center mt-3 justify-center group py-3 cursor-pointer gap-3">
+              <a
+                className="txtBold group-hover:text-[#A1C568] duration-500"
+                href=""
+              >
+                Order Now
+              </a>
+              <div className="group-hover:translate-x-2 text-[#323232] group-hover:text-[#A1C568] duration-500">
+                <FaArrowRight />
+              </div>
+            </div>
+          </div>
+          {/* pro */}
+          <div className="w-full  flex flex-col items-center mt-10">
+            <div className="w-14 h-14 bg-gray-200 rounded-xl flex justify-center items-center">
+              <GiChessQueen size={50} color="#A1C568" />
+            </div>
+            <span className="txtBold mt-3">Pro</span>
+            <div className="flex items-center justify-center ml-8 mt-5">
+              <span className="mb-4">$</span>
+              <span className="txtBold text-[42px] mx-3">48</span>
+              <span className="mt-4 ">hour</span>
+            </div>
+            <ul className="*:text-[#646464] font-normal text-center *:my-2">
+              <li>Web Design</li>
+              <li>Mobile-First</li>
+              <li>Graphic Design</li>
+              <li>Logo Design</li>
+              <li>Photography</li>
+            </ul>
+            <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
+            <div className="w-full flex items-center mt-3 justify-center group py-3 cursor-pointer gap-3">
+              <a
+                className="txtBold group-hover:text-[#A1C568] duration-500"
+                href=""
+              >
+                Order Now
+              </a>
+              <div className="group-hover:translate-x-2 text-[#323232] group-hover:text-[#A1C568] duration-500">
+                <FaArrowRight />
               </div>
             </div>
           </div>

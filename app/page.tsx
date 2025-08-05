@@ -13,7 +13,7 @@ export default function Home() {
           <ImageMe />
         </div>
       </div>
-      <div className="lg:absolute top-[70px] lg:right-[24px] lg:w-[50%] overflow-y-scroll">
+      <div className="lg:absolute top-[70px] lg:right-[24px] lg:w-[50%] lg:overflow-y-scroll">
         <AboutUs />
       </div>
     </div>

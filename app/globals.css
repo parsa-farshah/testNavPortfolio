@@ -5,6 +5,9 @@ body {
 }
 
 @layer utilities {
+  .txtBold {
+    @apply text-[#323232] font-extrabold;
+  }
   .colorOne {
     @apply text-[#A1C568];
   }
