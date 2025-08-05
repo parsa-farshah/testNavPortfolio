@@ -19,9 +19,9 @@ function AboutUs() {
 
       <div className="px-8 py-2 mb-8">
         <p className="text-[16px] font-normal text-[#646464]">
-          Hello! I’m Tyrone Ryan. Designer & Photographer from USA, California.
-          I have rich experience in web site design and photography. I love to
-          talk with you about our unique.
+          Hello! I’m Parsa Dehghan Pour Farashah — a Front-End Developer based
+          in Iran. I have solid experience in building modern, responsive
+          websites. Let’s connect and create something truly unique.
         </p>
         <div className="w-full">
           {/*-------------------------------- age -------------------------*/}
@@ -37,7 +37,7 @@ function AboutUs() {
             <span className="bgOne py-1 px-3 text-sm font-normal rounded-sm text-white">
               Residence:
             </span>
-            <span className="text-[16px] font-normal text-[#646464]">USA</span>
+            <span className="text-[16px] font-normal text-[#646464]">Iran</span>
           </div>
           <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white"></div>
           {/*-------------------------------- Freelance -------------------------*/}
@@ -56,7 +56,7 @@ function AboutUs() {
               Address:
             </span>
             <span className="text-[16px] font-normal text-[#646464]">
-              California, USA
+              Tehran , Iran
             </span>
           </div>
           <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white"></div>
@@ -71,62 +71,64 @@ function AboutUs() {
           </h1>
           <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-12"></div>
         </div>
-        {/* logo design */}
+        {/*  Front-End Development */}
         <div className="w-full flex flex-col items-center justify-center py-10">
           <div className="colorOne mb-3">
             <FaRegLightbulb size={35} />
           </div>
           <span className="text-[16px] text-[#323232] font-extrabold mb-3">
-            Logo Design
+            Front-End Development
           </span>
           <p className="text-center font-normal text-[#646464]">
-            Basic categories of logo styles are: word, letter, brand,
-            combination marks and emblems.
+            I build fast, responsive, and accessible websites using modern web
+            technologies — turning designs into real, interactive experiences.
           </p>
         </div>
         <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-12"></div>
-        {/* Web Design
+        {/* Responsive Design
          */}
         <div className="w-full flex flex-col items-center justify-center py-10">
           <div className="colorOne mb-3">
             <CgWebsite size={35} />
           </div>
           <span className="text-[16px] text-[#323232] font-extrabold mb-3">
-            Web Design
+            Responsive Design
           </span>
           <p className="text-center font-normal text-[#646464]">
-            Web designers craft the overall vision and plan for a website
-            layouts, mobile first, posters, branding.
+            From desktops to mobile screens, I create layouts that adapt
+            beautifully and function smoothly across all devices.
           </p>
         </div>
         <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-12"></div>
-        {/* Business Card
+        {/* Component-Based Development
          */}
         <div className="w-full flex flex-col items-center justify-center py-10">
           <div className="colorOne mb-3">
             <TiBusinessCard size={35} />
           </div>
           <span className="text-[16px] text-[#323232] font-extrabold mb-3">
-            Business Card
+            Component-Based Development
           </span>
           <p className="text-center font-normal text-[#646464]">
-            Every business card should include your name, the company name,
-            skills, cases and contacts.
+            I create reusable, scalable UI components using modern frameworks.
+            Clean code and modular structure help build fast and efficient web
+            apps.
           </p>
         </div>
         <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-12"></div>
-        {/* Mobile App Design
+        {/* Version Control with Git
          */}
         <div className="w-full flex flex-col items-center justify-center py-10">
           <div className="colorOne mb-3">
             <CiMobile3 size={35} />
           </div>
           <span className="text-[16px] text-[#323232] font-extrabold mb-3">
-            Mobile App Design
+            Version Control with Git
           </span>
           <p className="text-center font-normal text-[#646464]">
-            Create an animated app prototype and ask people to test it and
-            provide feedback.
+            Using Git, I manage code changes, collaborate smoothly with teams,
+            and keep development organized — from feature branches to
+            production-ready code.
           </p>
         </div>
       </div>
@@ -144,13 +146,14 @@ function AboutUs() {
               <div className="colorOne">
                 <FaBrain size={30} />
               </div>
-              <span>DESIGN</span>
+              <span>Front-End Frameworks</span>
             </div>
             {/* border */}
             <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
             {/*------------------- percentAge -------------------*/}
             <div className="w-full flex justify-between gap-y-9 flex-wrap mt-4">
-              {/* logo design */}
+              {/* Responsive Web Design
+               */}
               <div className="w-[45%] flex flex-col items-center">
                 {/* <figure className="w-1/2  flex">
                   <img
@@ -179,9 +182,10 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <h5 className="font-normal text-[#646464]">Logo Design</h5>
+                <h5 className="font-normal text-[#646464]">Responsive Web</h5>
               </div>
-              {/* web design */}
+              {/* HTML & Markup
+               */}
               <div className="w-[45%] flex flex-col items-center">
                 {/* <figure className="w-1/2  flex">
                   <img
@@ -210,9 +214,10 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <h5 className="font-normal text-[#646464]">Web Design</h5>
+                <h5 className="font-normal text-[#646464]">HTML & Markup</h5>
               </div>
-              {/* html */}
+              {/* CSS & Styling
+               */}
               <div className="w-[45%] flex flex-col items-center">
                 {/* <figure className="w-1/2  flex">
                   <img
@@ -241,9 +246,9 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <h5 className="font-normal text-[#646464]">Html</h5>
+                <h5 className="font-normal text-[#646464]">CSS & Styling</h5>
               </div>
-              {/* css */}
+              {/* git */}
               <div className="w-[45%] flex flex-col items-center">
                 {/* <figure className="w-1/2  flex">
                   <img
@@ -272,7 +277,7 @@ function AboutUs() {
                     />
                   </svg>
                 </div>
-                <h5 className="font-normal text-[#646464]">Css</h5>
+                <h5 className="font-normal text-[#646464]">Git & GitHub</h5>
               </div>
             </div>
             {/*---------------------------Software Skills ---------------------------*/}
@@ -281,54 +286,54 @@ function AboutUs() {
                 <IoDiamond size={30} />
               </div>
               <span className="text-[17px] text-[#323232] font-extrabold">
-                Software Skills
+                FrameWorks
               </span>
             </div>
             {/*-------------------------- border -----------------*/}
             <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
             {/*---------------------------- percent line ------------------------*/}
             <div className="w-full py-5">
-              {/* sketch */}
+              {/* bootstrap */}
               <div>
-                <span>Sketch</span>
+                <span>bootstrap</span>
                 <div
-                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[80%]
                 after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
               </div>
-              {/* sketch */}
+              {/* Tailwind */}
               <div className="mt-8">
-                <span>Sketch</span>
+                <span>Tailwind</span>
                 <div
-                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[90%]
                 after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
               </div>{" "}
-              {/* sketch */}
+              {/* React */}
               <div className="mt-8">
-                <span>Sketch</span>
+                <span>React Js</span>
                 <div
-                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[70%]
                 after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
               </div>{" "}
-              {/* sketch */}
+              {/* Next */}
               <div className="mt-8">
-                <span>Sketch</span>
+                <span>Next JS</span>
                 <div
-                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[100%]
                 after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
               </div>
-              {/* sketch */}
+              {/* Sass */}
               <div className="mt-8">
-                <span>Sketch</span>
+                <span>Sass</span>
                 <div
-                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[20%]
+                  className="w-full h-1 relative bg-gray-300 mt-3 after:content-[] after:w-[50%]
                 after:h-full after:bg-[#a1c568] after:absolute after:top-0 after:left-0
                 "
                 ></div>
@@ -357,11 +362,11 @@ function AboutUs() {
               <span className="mt-4 ">hour</span>
             </div>
             <ul className="*:text-[#646464] font-normal text-center *:my-2">
-              <li>Web Design</li>
-              <li>Mobile-First</li>
-              <li>Graphic Design</li>
-              <li className="line-through">Logo Design</li>
-              <li className="line-through">Photography</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>Responsive</li>
+              <li className="line-through">All Sizes</li>
+              <li className="line-through">New FrameWorks</li>
             </ul>
             <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
             <div className="w-full flex items-center mt-3 justify-center group py-3 cursor-pointer gap-3">
@@ -388,11 +393,11 @@ function AboutUs() {
               <span className="mt-4 ">hour</span>
             </div>
             <ul className="*:text-[#646464] font-normal text-center *:my-2">
-              <li>Web Design</li>
-              <li>Mobile-First</li>
-              <li>Graphic Design</li>
-              <li>Logo Design</li>
-              <li>Photography</li>
+              <li>Html</li>
+              <li>Css</li>
+              <li>FrameWorks</li>
+              <li>All Sizes</li>
+              <li>New FrameWorks</li>
             </ul>
             <div className="w-full h-[1px] bg-gradient-to-r from-gray-300 to-white mt-7"></div>
             <div className="w-full flex items-center mt-3 justify-center group py-3 cursor-pointer gap-3">

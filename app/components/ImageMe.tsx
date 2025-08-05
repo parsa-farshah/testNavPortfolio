@@ -11,6 +11,7 @@ import {
 import { RiYoutubeLine } from "react-icons/ri";
 import { IoIosCloudDownload } from "react-icons/io";
 import { PiTelegramLogo } from "react-icons/pi";
+import { SiGmail } from "react-icons/si";
 
 function ImageMe() {
   return (
@@ -30,50 +31,50 @@ function ImageMe() {
         </div>
 
         {/*----------------- center text ----------------*/}
-        <div className="absolute left-1/2 top-1/2 xl:top-3/4 -translate-1/2  *:text-center">
-          <h5 className="text-[#ffffff] text-4xl font-extrabold">
+        <div className="absolute left-1/2 top-4/6 sm:top-1/2 xl:top-3/4 -translate-1/2  *:text-center">
+          <h5 className="text-[#ffffff] text-2xl sm:text-4xl font-extrabold">
             Parsa Fresh
           </h5>
-          <h3 className="text-[#c5f797] text-xl text-shadow-black font-bold">
+          <h3 className="text-[#c5f797] text-sm sm:text-xl text-shadow-black font-bold">
             Front End Developer
           </h3>
           <ul className="flex justify-around mx-auto w-10/12 mt-4">
             <li>
               <a
-                href="#"
-                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
+                href="https://www.instagram.com/parsa_dehghanpour_dv?igsh=eHkwNWhsa3I4ZWVp"
+                className="text-gray-800 hover:text-[#c5f797] transition-colors duration-300"
               >
                 <FaInstagram size={20} />
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
+                href="parsafarashah2002@gmail.com"
+                className="text-gray-800 hover:text-[#c5f797] transition-colors duration-300"
               >
-                <FaTelegramPlane size={20} />
+                <SiGmail size={20} />
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
+                href="https://youtube.com/@frontendfresh?si=-2WsIYe-KBTUfwyu"
+                className="text-gray-800 hover:text-[#c5f797] transition-colors duration-300"
               >
                 <RiYoutubeLine size={20} />
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
+                href="https://www.linkedin.com/in/parsa-dehghan-pour-farashah-85ab04250 "
+                className="text-gray-800 hover:text-[#c5f797] transition-colors duration-300"
               >
                 <FaLinkedinIn size={20} />
               </a>
             </li>
             <li>
               <a
-                href="#"
-                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
+                href="https://github.com/parsa-farshah"
+                className="text-gray-800 hover:text-[#c5f797] transition-colors duration-300"
               >
                 <FaGithub size={20} />
               </a>
