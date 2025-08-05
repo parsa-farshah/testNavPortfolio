@@ -5,12 +5,13 @@ import { CiMobile3 } from "react-icons/ci";
 import { FaBrain, FaRegLightbulb } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
 import iconTenP from "../../public/images/icon-10%.png";
+import { IoDiamond } from "react-icons/io5";
 
 function AboutUs() {
   return (
     <div className="sm:pl-28 md:pl-40 mt-5">
       {/*----------------------------------- About ME ----------------------------*/}
-      <div className="w-[90%]   px-8 mx-auto pb-8">
+      <div className="w-[90%]  px-8 mx-auto pb-8">
         <h1 className="text-[#323232] font-extrabold text-xl">
           <span className="colorOne">A</span>bout Me
         </h1>
@@ -146,9 +147,76 @@ function AboutUs() {
               </div>
               <span>DESIGN</span>
             </div>
-            <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#334155_50%,_white_90%)] mt-7"></div>
-            <div className="w-full flex flex-wrap mt-4">
-              <div></div>
+            {/* border */}
+            <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
+            {/*------------------- percentAge -------------------*/}
+            <div className="w-full flex gap-y-9 flex-wrap mt-4">
+              {/* logo design */}
+              <div className="w-1/2 flex flex-col items-center">
+                <figure className="w-1/2  flex">
+                  <img
+                    className="w-[90px] h-[90px]"
+                    src="/images/iconthirtyP.png"
+                    alt=""
+                  />
+                </figure>
+                <h5 className="font-normal text-[#646464]">Logo Design</h5>
+              </div>
+              {/* web design */}
+              <div className="w-1/2 flex flex-col items-center">
+                <figure className="w-1/2  flex">
+                  <img
+                    className="w-[90px] h-[90px]"
+                    src="/images/iconfiftyP.png"
+                    alt=""
+                  />
+                </figure>
+                <h5 className="font-normal text-[#646464]">Web Design</h5>
+              </div>
+              {/* html */}
+              <div className="w-1/2 flex flex-col items-center">
+                <figure className="w-1/2  flex">
+                  <img
+                    className="w-[90px] h-[90px]"
+                    src="/images/iconTenPercent.png"
+                    alt=""
+                  />
+                </figure>
+                <h5 className="font-normal text-[#646464]">Html</h5>
+              </div>
+              {/* css */}
+              <div className="w-1/2 flex flex-col items-center">
+                <figure className="w-1/2  flex">
+                  <img
+                    className="w-[90px] h-[90px]"
+                    src="/images/iconEighti.png"
+                    alt=""
+                  />
+                </figure>
+                <h5 className="font-normal text-[#646464]">Css</h5>
+              </div>
+            </div>
+            {/*---------------------------Software Skills ---------------------------*/}
+            <div className="flex items-center gap-4 mt-10">
+              <div className="colorOne">
+                <IoDiamond size={30} />
+              </div>
+              <span className="text-[17px] text-[#323232] font-extrabold">
+                Software Skills
+              </span>
+            </div>
+            {/*-------------------------- border -----------------*/}
+            <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#7f7d7d_50%,_white_90%)] mt-7"></div>
+            {/*---------------------------- percent line ------------------------*/}
+            <div className="w-full py-5">
+              <div>
+                <span>Sketch</span>
+                <div
+                  className="w-full h-1 relative bg-amber-400 after:content-[] after:w-[20%]
+                after:h-full after:bg-blue-500 after:absolute after:top-0 after:left-0
+                "
+                ></div>
+              </div>
             </div>
           </div>
         </div>
