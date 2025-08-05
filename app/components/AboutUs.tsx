@@ -1,8 +1,10 @@
+import Image from "next/image";
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { CiMobile3 } from "react-icons/ci";
 import { FaBrain, FaRegLightbulb } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
+import iconTenP from "../../public/images/icon-10%.png";
 
 function AboutUs() {
   return (
@@ -145,6 +147,9 @@ function AboutUs() {
               <span>DESIGN</span>
             </div>
             <div className="w-full h-[1px] bg-[linear-gradient(to_right,_white_10%,_#334155_50%,_white_90%)] mt-7"></div>
+            <div className="w-full flex flex-wrap mt-4">
+              <div></div>
+            </div>
           </div>
         </div>
       </div>
