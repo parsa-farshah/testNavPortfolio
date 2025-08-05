@@ -1,10 +1,8 @@
-import Image from "next/image";
 import React from "react";
 import { CgWebsite } from "react-icons/cg";
 import { CiMobile3 } from "react-icons/ci";
 import { FaArrowRight, FaBrain, FaRegLightbulb } from "react-icons/fa";
 import { TiBusinessCard } from "react-icons/ti";
-import iconTenP from "../../public/images/icon-10%.png";
 import { IoDiamond } from "react-icons/io5";
 import { GiChessQueen } from "react-icons/gi";
 
@@ -408,6 +406,46 @@ function AboutUs() {
                 <FaArrowRight />
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      {/*----------------------------------- clients --------------------------------*/}
+      <div className="w-full px-8 mt-10">
+        {/* my service txt */}
+        <div className="w-full px-0 mx-auto mb-8">
+          <h1 className="text-[#323232] font-extrabold text-xl">
+            <span className="colorOne">C</span>lients
+          </h1>
+          <div className="w-[100%] h-[1px] bg-gradient-to-r from-gray-300 to-white mx-auto mt-7"></div>
+          <div className="w-full flex flex-wrap">
+            <figure className="w-1/2 h-24 border-r border-r-gray-300 flex justify-center items-center">
+              <img
+                className="w-[92px] h-[31px] contrast-0"
+                src="/images/google.png"
+                alt=""
+              />
+            </figure>
+            <figure className="w-1/2 h-24 flex justify-center items-center">
+              <img
+                className="w-[92px] h-[31px] contrast-0"
+                src="/images/upwork.png"
+                alt=""
+              />
+            </figure>
+            <figure className="w-1/2 h-24 border-r border-r-gray-300 flex justify-center items-center">
+              <img
+                className="w-[92px] h-[31px] contrast-0"
+                src="/images/freelancer.png"
+                alt=""
+              />
+            </figure>
+            <figure className="w-1/2 h-24 flex justify-center items-center">
+              <img
+                className="w-[92px] h-[31px] contrast-0"
+                src="/images/envato.png"
+                alt=""
+              />
+            </figure>
           </div>
         </div>
       </div>
