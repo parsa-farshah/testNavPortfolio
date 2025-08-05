@@ -19,8 +19,9 @@ body {
     background-size: cover;
   }
   .bgMe {
-    background-image: url(../public/images/profile2.jpg);
+    background-image: url(../public/images/parsa.jpg);
     background-size: cover;
+    background-position: center;
   }
 }
 

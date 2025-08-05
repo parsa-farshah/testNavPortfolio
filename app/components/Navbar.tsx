@@ -3,7 +3,7 @@ import React from "react";
 function Navbar() {
   return (
     <div>
-      <nav className="w-full flex flex-wrap sm:flex-col relative sm:pt-7 sm:ml-5 md:ml-20 before:w-[80px] before:h-[480px] before:content-[] before:hidden lg:before:flex before:border before:border-[#A1C568] before:absolute before:top-9 before:-left-6 before:z-40 before:rounded-sm">
+      <nav className="w-full flex flex-wrap sm:flex-col relative sm:pt-7 sm:ml-5 md:ml-12 before:w-[80px] before:h-[480px] before:content-[] before:hidden lg:before:flex before:border before:border-[#A1C568] before:absolute before:top-9 before:-left-6 before:z-40 before:rounded-sm">
         <div className="w-full p-4 flex justify-between  items-center border-b-[0.5px]  border-b-gray-700 rounded-md sm:border-0 sm:items-center sm:w-[80px] sm:p-0  z-50  ">
           {/* name and my job */}
           <div className="sm:hidden">
@@ -13,7 +13,7 @@ function Navbar() {
             <h2 className="text-[#A1C568] text-[12px]">Front End Developer</h2>
           </div>
           {/*---------------------- icons top ----------------------------------*/}
-          <div className="flex flex-row-reverse sm:flex-col sm:w-full sm:items-center gap-6 items-center sm:bg-[#fbfbfb] sm:py-5 sm:rounded-md">
+          <div className="flex flex-row-reverse sm:flex-col sm:w-full sm:items-center gap-6 items-center  sm:shadow-2xl sm:bg-[#f3f3f3] sm:py-5 sm:rounded-md">
             {/* menu bar icon */}
             <div className="w-8 h-8 rotate-90  flex justify-center items-center group/menu cursor-pointer">
               <span className=" h-1/2 text-2xl sm:text-xl text-[#323232] group-hover/menu:text-[#A1C568] bg group-hover/menu:h-full sm:group-hover/menu:h-[85%] duration-500 ">
@@ -63,7 +63,7 @@ function Navbar() {
           </div>
         </div>
         {/*--------------------- icons bottom ----------------------------------*/}
-        <div className="py-7 w-full  flex justify-around gap-[18%] px-7 overflow-x-scroll sm:flex-col sm:justify-between sm:items-center  sm:w-[80px] sm:h-[300px] sm:overflow-visible sm:gap-0 sm:rounded-md sm:bg-[#fbfbfb] mt-3 z-50">
+        <div className="py-7 w-full  flex justify-around gap-[18%] px-7 overflow-x-scroll sm:shadow-2xl sm:flex-col sm:justify-between sm:items-center  sm:w-[80px] sm:h-[300px] sm:overflow-visible sm:gap-0 sm:rounded-md sm:bg-[#f3f3f3] mt-3 z-50">
           {/* about icon */}
           <div className="group  cursor-pointer w-10 flex  justify-center relative after:content-['About'] uppercase after:opacity-0 after:pointer-events-none  hover:after:opacity-100 after:justify-center after:items-center after:text-white after:w-auto after:px-2.5 after:py-1 after:h-auto after:bg-[#A1C568] after:rounded-sm after:absolute after:left-[100%] after:top-1/2 after:-translate-y-1/2 after:duration-500">
             <svg

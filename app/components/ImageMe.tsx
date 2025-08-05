@@ -14,8 +14,8 @@ import { PiTelegramLogo } from "react-icons/pi";
 
 function ImageMe() {
   return (
-    <section className="w-full h-[500px] sm:w-full px-5 mt-3 mx-auto sm:px-3 sm:mt-6 sm:h-[600px]  lg:w-[500px] lg:h-[100vh] xl:pt-0 lg:m-0 lg:-translate-x-11 before:content-[] before:w-[110%] before:h-[110%] before:bg-[#dae8c4] before:absolute before:left-[-35px] before:top-[-36px] before:hidden lg:before:flex">
-      <div className="bgMe w-full h-full object-cover object-center relative overflow-hidden">
+    <section className="w-full  h-[500px] sm:w-full px-5 mt-3 mx-auto sm:px-3 sm:mt-6 sm:h-[600px]  lg:w-[500px] lg:h-[100vh] xl:pt-0 lg:m-0 lg:-translate-x-11 before:content-[] before:shadow before:w-[110%] before:h-[110%] before:bg-[#dae8c4] before:absolute before:left-[-35px] before:top-[-36px] before:hidden lg:before:flex">
+      <div className="bgMe w-full  shadow-2xl  h-full object-cover object-center relative overflow-hidden">
         {/* top image */}
         <div className="w-[200%] h-[200px] sm:-translate-y-9 md:-translate-y-18 object-cover absolute top-0 left-[-50%] ">
           <Image src={topImg} alt="papper" />
@@ -34,12 +34,14 @@ function ImageMe() {
           <h5 className="text-[#ffffff] text-4xl font-extrabold">
             Parsa Fresh
           </h5>
-          <h3 className="text-[#a1c568]">Front End Developer</h3>
+          <h3 className="text-[#c5f797] text-xl text-shadow-black font-bold">
+            Front End Developer
+          </h3>
           <ul className="flex justify-around mx-auto w-10/12 mt-4">
             <li>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#a1c568] transition-colors duration-300"
+                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
               >
                 <FaInstagram size={20} />
               </a>
@@ -47,7 +49,7 @@ function ImageMe() {
             <li>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#a1c568] transition-colors duration-300"
+                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
               >
                 <FaTelegramPlane size={20} />
               </a>
@@ -55,7 +57,7 @@ function ImageMe() {
             <li>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#a1c568] transition-colors duration-300"
+                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
               >
                 <RiYoutubeLine size={20} />
               </a>
@@ -63,7 +65,7 @@ function ImageMe() {
             <li>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#a1c568] transition-colors duration-300"
+                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
               >
                 <FaLinkedinIn size={20} />
               </a>
@@ -71,7 +73,7 @@ function ImageMe() {
             <li>
               <a
                 href="#"
-                className="text-gray-400 hover:text-[#a1c568] transition-colors duration-300"
+                className="text-gray-800 hover:text-[#a1c568] transition-colors duration-300"
               >
                 <FaGithub size={20} />
               </a>

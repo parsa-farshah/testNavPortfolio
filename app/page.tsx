@@ -5,18 +5,16 @@ import Navbar from "./components/Navbar";
 export default function Home() {
   return (
     <div className="w-full flex justify-center transform-3d flex-col bgWhite lg:relative lg:overflow-hidden lg:flex-row">
-      <div className="w-full lg:origin-left lg:perspective-midrange lg:rotate-y-[25deg] 2xl:container sm:flex">
+      <div className="w-full lg:origin-left lg:perspective-midrange lg:rotate-y-[25deg] 2xl:container lg:flex">
         <div className="fixed z-50 bg-[#fbfbfb] sm:bg-[#ff343400] lg:perspective-[480px] lg:origin-left lg:translate-y-9 lg:rotate-y-[28deg]">
           <Navbar />
         </div>
         <div className="w-full sm:pl-28 md:pl-40 pt-48 sm:pt-0 z-40 lg:perspective-[480px] lg:origin-left lg:rotate-y-[28deg]">
           <ImageMe />
         </div>
-      </div>
-
-      {/* فقط این بخش اسکرول‌پذیر بشه در سایز lg */}
-      <div className="lg:absolute top-[70px] lg:right-[3%] lg:w-[50%] lg:h-screen lg:overflow-y-scroll backdrop-blur-xl">
-        <AboutUs />
+        <div className="lg:absolute top-[50px] lg:right-[3%] lg:w-[60%] lg:pl-[14%] xl:w-[60%] xl:pl-[10%]  lg:h-screen lg:overflow-y-scroll backdrop-blur-3xl">
+          <AboutUs />
+        </div>
       </div>
     </div>
   );
