@@ -59,13 +59,13 @@ A modern and fully responsive **portfolio website** built with **Next.js**, feat
 <img src="cover.jpg" alt="Portfolio Overview" width="100%">
 
 ###  Desktop (3D Interactive View)  
-<img src="assets/screenshots/desktop-3d.png" alt="Desktop 3D View" width="100%">
+<img src="1.jpg" alt="Desktop 3D View" width="100%">
 
 ###  Tablet View  
-<img src="assets/screenshots/tablet.png" alt="Tablet View" width="60%">
+<img src="2.jpg" alt="Tablet View" width="60%">
 
 ###  Mobile View  
-<img src="assets/screenshots/mobile.png" alt="Mobile View" width="45%">
+<img src="3.jpg" alt="Mobile View" width="45%">
 
 ---
 
