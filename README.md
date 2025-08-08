@@ -56,7 +56,7 @@ A modern and fully responsive **portfolio website** built with **Next.js**, feat
 ##  Screenshots | پیش‌نمایش پروژه
 
 ###  Overview  
-<img src="assets/screenshots/cover.png" alt="Portfolio Overview" width="100%">
+<img src="cover.jpg" alt="Portfolio Overview" width="100%">
 
 ###  Desktop (3D Interactive View)  
 <img src="assets/screenshots/desktop-3d.png" alt="Desktop 3D View" width="100%">
